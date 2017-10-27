@@ -1,9 +1,10 @@
 <?php
-$jugos = array("manzana", "naranja", "koolaid1" => "pusrpura");
+$jugos = array("manzana", "naranja", "koolaid1" => "purpura");
 
 echo "el tomó algo de jugo de $jugos[0].".PHP_EOL;
 echo "el tomó algo de jugo de $jugos[1].".PHP_EOL;
-echo "el tomó algo de jugo  $jugos[koolaid1].".PHP_E0L;
+echo "el tomó algo de jugo $jugos[koolaid1].".PHP_EOL;
+
 
 class persona {
     public $john = "John Smith";
