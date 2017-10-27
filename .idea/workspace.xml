@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3eb2a6f-407c-42b7-92b8-f9aefeeab23e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ex01.php" afterPath="$PROJECT_DIR$/ex01.php" />
-    </list>
+    <list default="true" id="a3eb2a6f-407c-42b7-92b8-f9aefeeab23e" name="Default" comment="" />
     <ignored path="code.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -41,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/ex01.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.11127596" vertical-offset="0" max-vertical-offset="674">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -253,7 +251,7 @@
     <entry file="file://$PROJECT_DIR$/ex01.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11127596" vertical-offset="0" max-vertical-offset="674">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding />
         </state>
       </provider>
