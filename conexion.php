@@ -1,28 +1,34 @@
 <?php
-// Conectando, seleccionando la base de datos
-$link = mysql_connect('mysql_host', 'mysql_user', 'mysql_password')
-or die('No se pudo conectar: ' . mysql_error());
-echo 'Connected successfully';
-mysql_select_db('my_database') or die('No se pudo seleccionar la base de datos');
 
-// Realizar una consulta MySQL
-$query = 'SELECT * FROM my_table';
-$result = mysql_query($query) or die('Consulta fallida: ' . mysql_error());
+$servername = "192.168.10.10";
+$username = "homestead";
+$password = "secret";
 
-// Imprimir los resultados en HTML
-echo "<table>\n";
-while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
-    echo "\t<tr>\n";
-    foreach ($line as $col_value) {
-        echo "\t\t<td>$col_value</td>\n";
-    }
-    echo "\t</tr>\n";
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
-echo "</table>\n";
+echo "Connected successfully";
+// code
+//  users
 
-// Liberar resultados
-mysql_free_result($result);
+// una selección de datos de la base de dato code
+// de la tabla users
+// $query='select * from users';
 
-// Cerrar la conexión
-mysql_close($link);
+
+
 ?>
+<table>
+    <tr>
+        <td>Nombre</td>
+        <td>Apellido</td>
+    </tr>
+    <tr>
+        <td>xx</td>
+        <td>xx</td>
+    </tr>
+</table>
