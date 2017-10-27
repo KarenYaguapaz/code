@@ -10,5 +10,5 @@ function generar($l)
     }
     return $s;
 }
- echo generar(50);
+ echo generar(16);
 ?>
