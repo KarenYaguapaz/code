@@ -1,4 +1,4 @@
-<h1>test</h1>
+<h1>Number</h1>
 <?php
 function generar($l)
 {
