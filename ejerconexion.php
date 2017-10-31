@@ -1,28 +1,21 @@
 <?php
 
-$servername = "192.168.10.10";
-$username = "homestead";
-$password = "secret";
+if(!($conn = mysql_connect('servername', 'username', 'password')));
+{
+    exit();
+ }
+else {
+    mysql_select_db("code",$conn);
+    $query = "selct nombre from tabla 1 where id=1";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password);
+    $q = mysql_query($query, $conn);
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    $result = mysql_result($q, 0);
+
+    echo $result;
+
 }
-echo "Connected successfully";
 
-?>
-
-<?php
-    $conn = mysql_connect('servername', 'username', 'password');
-    $queryStr = 'SELECT * FROM code.users';
-    $query = mysql_query($queryStr);
-    $resultado = mysql_fetch_row($query);
-    mysql_close($conect);
-
-print_r($resultado);
 ?>
 
 

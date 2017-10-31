@@ -16,6 +16,6 @@ class persona {
 
 $persona =new persona();
 
-echo "$persona- >john tomó algo de jugo de $jugos[0].".PHP_EOL;
-echo "$persona- >john entonces dijo hola a $persona- >jane.".PHP_EOL;
+echo "$persona - >john tomó algo de jugo de $jugos[0].".PHP_EOL;
+echo "$persona - >john entonces dijo hola a $persona- >jane.".PHP_EOL;
 ?>
