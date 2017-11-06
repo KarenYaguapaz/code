@@ -22,7 +22,8 @@ echo "Connected successfully";
 
 
 ?>
-<table>
+
+    <table>
     <tr>
         <td>Nombre</td>
         <td>Apellido</td>
