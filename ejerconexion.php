@@ -16,7 +16,7 @@
         <td>Apellido</td>
     </tr>
     <?php
-    $result = mysql_querry("select * from users");
+    $result = mysql_query("select*from users");
     while ($row = mysql_fetch_array($result)); {?>
         <tr>
             <td><?php echo $row["id"];?></td>
