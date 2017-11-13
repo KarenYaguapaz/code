@@ -4,7 +4,7 @@
     </head>
     <body>
 <?php
-    $connect=mysql_connect('192.168.10.10', 'Homestead', 'secret');
+    $conn= mysql_connect('192.168.10.10', 'Homestead', 'secret');
     mysql_select_db("code", $conn) or dir ("no se pudo conectar a la base de datos");
 ?>
 <table>
