@@ -1,21 +1,8 @@
+<h2>Ejercicio 2</h2>
 <?php
-$jugos = array("manzana", "naranja", "koolaid1" => "purpura");
+//Escribe un programa que imprima por pantalla los cuadrados (el numero multiplicado por si mismo)de los 30 primeros numeros
 
-echo "el tomó algo de jugo de $jugos[0].".PHP_EOL;
-echo "el tomó algo de jugo de $jugos[1].".PHP_EOL;
-echo "el tomó algo de jugo $jugos[koolaid1].".PHP_EOL;
-
-
-class persona {
-    public $john = "John Smith";
-    public $jane = "Jane Smith";
-    public $robert = "Robert Paulsen";
-
-    public $smith = "Smith";
+for($i = 1; $i <= 30; $i++) {
+    echo "El cuadrado de " .$i. " es " .($i *$i)."<br/>";
 }
-
-$persona =new persona();
-
-echo "$persona - >john tomó algo de jugo de $jugos[0].".PHP_EOL;
-echo "$persona - >john entonces dijo hola a $persona- >jane.".PHP_EOL;
 ?>
